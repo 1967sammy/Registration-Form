@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student registration form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+            <header>registration Form</header>
+            <form action="" id="registrationForm" class="form">
+                <div class="alert">Your message sent</div>
+            <div class="spacebox">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Enter your name"required>
+            </div>
+            <div  class="spacebox">
+                <label for="name">Email Address</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+            <div  class="spacebox">
+                <label for="name">Student ID</label>
+                <input type="text" id="studentid" placeholder="Enter your student ID" required>
+            </div>
+            <div class></div>
+            <div class="spacebox">
+                <label for="name">Date of birth</label>
+                <input type="date" id="dateofbirth" placeholder="Enter date of birth">
+            </div>
+            <div  class="spacebox">
+                <label for="name">Phone Number</label>
+                <input type="tel" id="phonenumber" placeholder="Enter Telephone Number">
+            </div>
+            <div  class="spacebox">
+                <label for="name">Address</label>
+                <input type="text" id="address" placeholder="Enter your Address" required>
+            </div>
+            <div  class="spacebox">
+                <label for="name">Course</label>
+                <input type="text" id="courseenrolled" placeholder=" Course Enrolled">
+            </div>
+            <div  class="spacebox">
+                <label for="name">Year of Study</label>
+                <input type="tel" id="yearofstudy" placeholder="Year of Study">
+            </div>
+            <div class="gender-box">
+                <h1>Gender</h1>
+                <div class="gender-option">
+                    <div class="gender">
+                        <input type="radio" id="check" name="gender">
+                        <label for="check-Male">Male</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-Female" name="gender">
+                        <label for="check">Female</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-Other" name="gender">
+                        <label for="check">Other</label>
+                    </div>
+                </div>
+            </div>
+                <button type="submit">Submit</button>
+            </div>
+    </form>
+    </div>
+    <!-- </div> -->
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
